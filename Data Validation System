@@ -1,0 +1,7 @@
+class Validate{
+public static void main(String[] args){
+int a[]={1,2,3},b[]={1,2,3},f=1;
+for(int i=0;i<a.length;i++) if(a[i]!=b[i]) f=0;
+System.out.print(f==1?"Identical":"Not Identical");
+}
+}
