@@ -1,0 +1,6 @@
+class Encode{
+public static void main(String[] args){
+char ch='B';
+System.out.print("ASCII Value = "+(int)ch);
+}
+}
