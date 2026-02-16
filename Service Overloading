@@ -1,0 +1,7 @@
+class Service{
+int add(int a,int b){ return a+b; }
+int add(int a,int b,int c){ return a+b+c; }
+public static void main(String[] args){
+Service s=new Service(); System.out.print(s.add(2,3)+" "+s.add(2,3,4));
+}
+}
