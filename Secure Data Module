@@ -1,0 +1,13 @@
+class Data {
+    private int x;               // hidden data
+    void setX(int a){ x=a; }    // setter
+    int getX(){ return x; }     // getter
+}
+
+public class Main {
+    public static void main(String[] args){
+        Data d = new Data();
+        d.setX(50);
+        System.out.println("Value = " + d.getX());
+    }
+}
