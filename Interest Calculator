@@ -1,0 +1,7 @@
+class Interest{
+double p=1000,r=5,t=2;
+void calc(){ System.out.print("SI="+(p*r*t)/100); }
+public static void main(String[] args){
+new Interest().calc();
+}
+}
