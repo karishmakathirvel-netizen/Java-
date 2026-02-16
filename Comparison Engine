@@ -1,0 +1,8 @@
+class Highest{
+public static void main(String[] args){
+int a=10,b=25,c=15;
+if(a>b && a>c) System.out.print("Highest="+a);
+else if(b>c) System.out.print("Highest="+b);
+else System.out.print("Highest="+c);
+}
+}
