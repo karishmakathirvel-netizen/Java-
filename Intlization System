@@ -1,0 +1,7 @@
+class Init{
+Init(){ System.out.println("Default Constructor"); }
+Init(int a){ System.out.println("Value="+a); }
+public static void main(String[] args){
+new Init(); new Init(10);
+}
+}
