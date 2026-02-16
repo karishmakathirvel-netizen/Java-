@@ -1,0 +1,14 @@
+class Parent {
+    void show() { System.out.println("Parent Method"); }
+}
+
+class Child extends Parent {
+    void show() { System.out.println("Child Method"); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child(); // Runtime polymorphism
+        p.show();
+    }
+}
