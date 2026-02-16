@@ -1,0 +1,14 @@
+class Task extends Thread {
+    public void run() {
+        System.out.println("Task Completed");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Task t1 = new Task();
+        t1.start();
+        t1.join();   // Wait until t1 finishes
+        System.out.println("Next Task Started");
+    }
+}
