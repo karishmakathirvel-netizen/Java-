@@ -1,0 +1,9 @@
+class A { void show(){ System.out.println("Base"); } }
+class B extends A { void show(){ System.out.println("Child"); } }
+
+public class Main {
+    public static void main(String[] args){
+        A obj = new B();  // Base reference, Child object
+        obj.show();       // Runtime polymorphism
+    }
+}
